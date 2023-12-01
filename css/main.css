@@ -4498,7 +4498,7 @@ button {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: url("../images/bg-project-01.jpg");
+  background-image: url("../images/bg-project-00.jpg");
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -5176,6 +5176,14 @@ button {
   color: #fff;
   display: inline-block;
   margin-right: 40px;
+  padding: 5px 20px 5px 20px;
+  background-color: #00D1FF;
+  border-radius: 5px;
+}
+
+.header-contact:hover{
+  cursor: pointer;
+  background-image: linear-gradient(to right, #00D1FF 0%, #00D1FF 51%, #F7B278 100%);
 }
 
 /* HEADER 1 */
