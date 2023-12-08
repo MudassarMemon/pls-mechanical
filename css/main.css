@@ -676,7 +676,7 @@ a:hover {
   display: block;
   padding: 0 10px;
   font-size: 13px;
-  color: #333;
+  color: #bcbcbc;
 }
 
 .list-social__item a i {
@@ -1518,7 +1518,7 @@ a:hover {
 }
 
 .media-project-hover .media__title a {
-  font-size: 30px;
+  font-size: 25px;
   color: #fff;
   line-height: -webkit-calc(48/30);
   line-height: -moz-calc(48/30);
@@ -3483,7 +3483,7 @@ a:hover {
 .title-2 {
   font-size: 700;
   font-size: 48px;
-  color: #222;
+  color: #ffffff;
   line-height: -webkit-calc(60/48);
   line-height: -moz-calc(60/48);
   line-height: calc(60/48);
@@ -3765,6 +3765,7 @@ a:hover {
 /* ==========================================================================
    #FORM
    ========================================================================== */
+
 input,
 textarea {
   border: none;
@@ -5151,6 +5152,42 @@ button {
   }
 }
 
+#subscribe-message {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-family: Poppins,Arial,"Helvetica Neue",sans-serif;
+  line-height: -webkit-calc(60/48);
+  line-height: -moz-calc(60/48);
+  line-height: calc(60/48);
+}
+
+#subscribe-message > span{
+  color: #00D1FF;
+}
+
+#subscribe-btn {
+  background-color: #00D1FF;
+  color: black;
+  border-radius: 3px;
+}
+
+#subscribe-btn:hover {
+  background-color: #00a1c6;
+}
+
+#subscribe-inputs {
+  background-color: #262626;
+  color: #929292;
+  border-bottom: #929292;
+  border-width: 1px;
+  border-style: solid;
+  max-height: 45px;
+}
+
+
 /* ==========================================================================
    #HEADER
    ========================================================================== */
@@ -5217,7 +5254,7 @@ button {
 }
 
 .header-1--light .menu a:hover {
-  color: #ccc;
+  color: #ffffff;
 }
 
 /* HEADER 2 */
@@ -5490,6 +5527,10 @@ button {
   padding: 17px 22px;
 }
 
+/* #header-bg-default {
+  background: url("../images/header-bg-default.png") center center/cover no-repeat;
+} */
+
 /* ==========================================================================
    #MENU
    ========================================================================== */
@@ -5499,12 +5540,12 @@ button {
 
 .menu a {
   font-size: 13px;
-  color: #222;
+  color: #ffffff;
   text-transform: capitalize;
 }
 
 .menu a:hover {
-  color: #333;
+  color: #ffffff;
 }
 
 .menu-item {
@@ -5693,7 +5734,7 @@ button {
   top: 0;
   right: 0;
   bottom: 0;
-  background: #fff;
+  background: #000000;
   padding: 87px 80px 75px 85px;
   overflow-y: scroll;
   -webkit-transition: all 0.5s ease;
@@ -5716,13 +5757,13 @@ button {
 }
 
 .menu-sidebar .copyright {
-  color: #888;
+  color: #bcbcbc;
   margin-top: 208px;
 }
 
 .btn-close {
   font-size: 18px;
-  color: #888;
+  color: #bcbcbc;
   position: absolute;
   right: 85px;
   top: 30px;
@@ -5730,7 +5771,7 @@ button {
 }
 
 .btn-close:hover {
-  color: red;
+  color: #04D1FF;
 }
 
 .menu-sidebar-nav-menu {
@@ -5743,7 +5784,7 @@ button {
 }
 
 .menu-sidebar-nav-menu .menu a:hover {
-  color: #666;
+  color: #04D1FF;
 }
 
 .menu-sidebar-nav-menu .menu-item {
@@ -5779,14 +5820,14 @@ button {
 }
 
 .menu-sidebar-nav-menu .menu-item .sub-menu .menu-item a {
-  color: #222;
+  color: #bcbcbc;
   padding: 8px 0;
   padding-right: 0;
   font-size: 18px;
 }
 
 .menu-sidebar-nav-menu .menu-item .sub-menu .menu-item a:hover {
-  color: #666;
+  color: #04D1FF;
 }
 
 /* ==========================================================================
@@ -6732,11 +6773,12 @@ button {
    #WIDGET
    ========================================================================== */
 .widget-title {
-  font-size: 18px;
-  font-weight: 700;
-  color: #fff;
+  font-size: 16px;
+  font-weight: 200;
+  color: #00D1FF;
   text-transform: uppercase;
   margin-bottom: 30px;
+  font-family: Poppins,Arial,"Helvetica Neue",sans-serif;
 }
 
 .widget-sidebar .widget {
@@ -7675,7 +7717,7 @@ button {
 }
 
 .bg-overlay--p85 {
-  background: rgba(0, 0, 0, 0.85);
+  background: rgb(0, 0, 0);
 }
 
 .bg-parallax {
@@ -16405,3 +16447,20 @@ button:focus {
     margin-left: 300px;
   }
 }
+
+/* ==========================================================================
+   #TERMS OF SERVICE
+   ========================================================================== */
+
+   .tos-content {
+    color: white;
+  }
+
+  main.tos {
+    background-color: black; 
+    position: relative;
+  }
+    
+  .black-default-bg{
+    position: absolute;
+  }

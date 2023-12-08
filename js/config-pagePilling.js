@@ -63,8 +63,9 @@
 
 
                         /* EFFECTS */
-                        if (nextIndex == 4)
+                        if (nextIndex == 3){
                             jsLine.addClass('active');
+                        }
 
                     }
 
