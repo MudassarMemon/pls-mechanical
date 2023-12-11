@@ -2,9 +2,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // Filter functionality
     var filterButtons = document.querySelectorAll('.filter-btn');
     var serviceItems = document.querySelectorAll('.service-item');
+    let j = 0
 
     filterButtons.forEach(function(btn) {
-    
+        if (j == 0) {
+            btn.children[0].style.color = '#04D1FF';
+            j++;
+        }
+        
+
         btn.addEventListener('click', function() {
             var filter = this.getAttribute('data-filter');
             filterButtons.forEach(function(category) {
@@ -58,6 +64,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     document.querySelectorAll('.service-icon').forEach(function(icon) {
+        if (j == 1){
+            icon.src = icon.getAttribute('data-blue-src');
+            j++;
+        }
         icon.addEventListener('click', function() {
             // Reset all icons to their default state
             document.querySelectorAll('.service-icon').forEach(function(otherIcon) {

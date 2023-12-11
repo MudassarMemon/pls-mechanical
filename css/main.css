@@ -16512,3 +16512,16 @@ button:focus {
     text-align: center;
     line-height: 13px;
   }
+
+  .about-bg {
+    position: absolute;
+  } 
+  
+  p.about-us {
+    color:white;
+    font-size: 16px;
+  }
+  
+  .about-us-section{
+    text-align: start;
+  }
