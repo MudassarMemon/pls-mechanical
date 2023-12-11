@@ -16525,3 +16525,75 @@ button:focus {
   .about-us-section{
     text-align: start;
   }
+
+
+   /* ==========================================================================
+   #Interactive Diagrams Heating and Cooling
+   ========================================================================== */
+
+  div#cassette-heater{
+    position: relative;
+     top: 44%;
+     left: 69%;
+     width: 18vw;
+     height: 30vh;
+     z-index: 2;
+     margin:0px;
+    padding:0px
+  }
+  
+  div#duct-air-handler{
+    position: relative;
+     top: 44%;
+     left: 60%;
+     width: 27vw;
+     height: 30vh;
+     z-index: 2;
+     margin:0px;
+    padding:0px
+  }
+  
+  div#wall-mounted-heating-cooling{
+    position: relative;
+     top: -30%;
+     left: 38%;
+     width: 30vw;
+     height: 35vh;
+     z-index: 2;
+     margin:0px;
+    padding:0px
+  }
+  
+  div#floor-mounted{
+    position: relative;
+     top: -32%;
+     left: 10%;
+     width: 18vw;
+     height: 25vh;
+     z-index: 2;
+     margin:0px;
+    padding:0px
+  }
+  
+  div#multi-zone-heating-cooling{
+    position: relative;
+     top: -57%;
+     left: 0;
+     width: 9vw;
+     height: 25vh;
+     z-index: 2;
+     margin:0px;
+    padding:0px
+  }
+  
+  div#horizontal-ducted{
+    position: relative;
+     top: -110%;
+     left: 15%;
+     width: 20vw;
+     height: 25vh;
+     z-index: 2;
+     margin:0px;
+    padding:0px;
+  }
+
