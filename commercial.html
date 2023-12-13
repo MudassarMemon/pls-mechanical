@@ -35,7 +35,7 @@
     <link href="vendor/pagePiling/css/jquery.pagepiling.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="css/main.min.css" rel="stylesheet" media="all">
+    <link href="css/main.css" rel="stylesheet" media="all">
 
     <!--Favicons-->
     <link rel="icon" href="./images/cropped-pls-fav-32x32.png" sizes="32x32">
@@ -49,7 +49,7 @@
         <!-- HEADER-->
         <header id="header">
             <div class="header header-2 d-none d-lg-block">
-                <div class="header__bar bg-overlay bg-overlay--p85" id="header-default-bg"> 
+                <div class="header__bar bg-overlay" id="header-default-bg"> 
                     <div class="wrap wrap--w1790">
                         <div class="container-fluid">
                             <div class="header__content">
@@ -83,7 +83,7 @@
                                                 </a>
                                             </li>
                                             <li class="list-social__item">
-                                                <a class="ic-google" href="https://www.linkedin.com/company/pls-mechanical-inc/">
+                                                <a class="ic-linkedin" href="https://www.linkedin.com/company/pls-mechanical-inc/">
                                                     <i class="zmdi zmdi-linkedin"></i>
                                                 </a>
                                             </li>
@@ -240,7 +240,8 @@
                     <div class="rev_slider fullwidthabanner js-rev" data-version="5.4.4" style="display:none" data-rev-layout="fullscreen" data-rev-bullets="false" data-rev-arrows="false">
                         <ul>
                             <li>
-                                <div class="rs-background-video-layer" 
+                                <!-- <div class="rs-background-video-layer" 
+                                data-nextslideatend="true" 
                                 data-forcerewind="on" 
                                 data-volume="mute" 
                                 data-videowidth="100%" 
@@ -257,8 +258,31 @@
                                 data-videoendat="00:50"
                                 data-autoplay="on" 
                                 data-autoplayonlyfirsttime="true" 
-                                >   
-                                </div>
+                                > -->
+                                <div class="tp-caption tp-resizeme tp-videolayer fullscreenvideo" 
+                                    id="slide" 
+                                    data-transform_idle="o:1;"
+                                    data-style_hover="cursor:pointer;"
+                                    data-responsive_offset="on" 
+                                    data-forceCover="1"
+                                    data-aspectratio="16:9"
+                                    data-volume="mute" 
+                                    data-type="video" 
+                                    data-start="0"
+                                    data-ytid="B6Q-PYtQIa8" 
+                                    data-videorate="1" 
+                                    data-videowidth="100%" 
+                                    data-videoheight="100%" 
+                                    data-autoplay="on" 
+                                    data-videocontrols="controls" 
+                                    data-forcerewind="on" 
+                                    data-videoloop="loop" 
+                                    data-videoattributes="version=3&enablejsapi=1&html5=1&hd=1&wmode=opaque&rel=0&controls=1&modestbranding=1&iv_load_policy=3&showinfo=0&origin=http://www.youtube.com/"
+                                    data-x="center" 
+                                    data-y="center" 
+                                    data-hoffset="0" 
+                                    data-voffset="0" 
+                                    data-basealign="slide">
                             </li>
                         </ul>
                     </div>
@@ -395,7 +419,7 @@
                                                 </a>
                                             </li>
                                             <li class="list-social__item">
-                                                <a class="ic-google" href="#">
+                                                <a class="ic-linkedin" href="#">
                                                     <i class="zmdi zmdi-linkedin"></i>
                                                 </a>
                                             </li>

@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     filterButtons.forEach(function(btn) {
         if (j == 0) {
-            btn.children[0].style.color = '#04D1FF';
+            btn.children[0].style.color = '#00D1FF';
             j++;
         }
         
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             filterButtons.forEach(function(category) {
                 category.children[0].style.color = 'white'
             })
-            this.children[0].style.color = '#04D1FF'
+            this.children[0].style.color = '#00D1FF'
             
             let i = 0
             serviceItems.forEach(function(item) {
