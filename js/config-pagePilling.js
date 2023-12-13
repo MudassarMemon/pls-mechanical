@@ -64,7 +64,7 @@
 
 
                         /* EFFECTS */
-                        if (nextIndex == 3){
+                        if (nextIndex == 3 || (nextIndex == 2 && title == "iaq_nav_toggle")){
                             jsLine.addClass('active');
                             navBar.style.backgroundColor = 'black';
                         } else {

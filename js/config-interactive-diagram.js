@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         area.addEventListener("mouseleave", function(){
             if (defaultBackground.includes("heating")){
-                interactiveOverlay[2].style.backgroundImage = "url(\"images/heating-interactive-bg.png\")"
+                interactiveOverlay[2].style.backgroundImage = "url(\"images/heating-interactive-bg-w-hover-icon.png\")"
             } else{
-                interactiveOverlay[2].style.backgroundImage = "url(\"images/cooling-interactive-bg.png\")"
+                interactiveOverlay[2].style.backgroundImage = "url(\"images/cooling-interactive-bg-w-hover-icon.png\")"
             }
         })
     })

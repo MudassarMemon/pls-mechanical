@@ -16686,9 +16686,9 @@ button:focus {
 
 .navbar {
   transition: background-color 0.5s ease-in-out;
-  filter: opacity(.9);
+  /* filter: opacity(.9); */
 }
 
-.pp-scrollable{
-  padding-top: 100px;
+.interactive{
+  font-family: inherit;
 }
