@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var interactiveHover = document.querySelectorAll('.interactiveHover');
     var interactiveOverlay = document.querySelectorAll('.defaultimg');
     let defaultBackground = interactiveOverlay[2].getAttribute('style')
-    console.log(defaultBackground.includes("cooling"))
     
     interactiveHover.forEach(function(area){
         

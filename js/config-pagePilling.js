@@ -14,6 +14,7 @@
         var pageTitle = pageInfo.find('.page-info__title');
         var header = $('.header-page-pilling');
         var wW = $(window).width();
+        const navBar = document.querySelector('.navbar');
 
         // EFFECT VARIABLE
         var jsLine = $('.js-line');
@@ -65,8 +66,11 @@
                         /* EFFECTS */
                         if (nextIndex == 3){
                             jsLine.addClass('active');
+                            navBar.style.backgroundColor = 'black';
+                        } else {
+                            navBar.style.backgroundColor = ''; // Original color
                         }
-
+                        
                     }
 
                 });
