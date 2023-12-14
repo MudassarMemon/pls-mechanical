@@ -16576,7 +16576,7 @@ button:focus {
    #Interactive Diagrams Heating and Cooling
    ========================================================================== */
 
-  div#cassette-heater{
+  div#cassette-heating{
     position: relative;
      top: 44%;
      left: 69%;
@@ -16587,7 +16587,7 @@ button:focus {
      padding:0px;
   }
   
-  div#duct-air-handler{
+  div#duct-air-handler-heating{
     position: relative;
      top: 44%;
      left: 60%;
@@ -16598,7 +16598,7 @@ button:focus {
      padding:0px;
   }
   
-  div#wall-mounted-heating-cooling{
+  div#wall-mounted-heating{
     position: relative;
      top: -30%;
      left: 38%;
@@ -16609,7 +16609,7 @@ button:focus {
      padding:0px;
   }
   
-  div#floor-mounted{
+  div#floor-mounted-heating{
     position: relative;
      top: -32%;
      left: 10%;
@@ -16620,7 +16620,7 @@ button:focus {
      padding:0px;
   }
   
-  div#multi-zone-heating-cooling{
+  div#multi-zone-heating{
     position: relative;
      top: -57%;
      left: 0;
@@ -16631,7 +16631,7 @@ button:focus {
      padding:0px;
   }
   
-  div#horizontal-ducted{
+  div#horizontal-ducted-heating{
     position: relative;
      top: -110%;
      left: 15%;
@@ -16639,7 +16639,73 @@ button:focus {
      height: 25vh;
      z-index: 2;
      margin:0px;
-     padding:0px;;
+     padding:0px;
+  }
+
+  div#cassette-cooling{
+    position: relative;
+     top: 44%;
+     left: 69%;
+     width: 18vw;
+     height: 30vh;
+     z-index: 2;
+     margin:0px;
+     padding:0px;
+  }
+  
+  div#duct-air-handler-cooling{
+    position: relative;
+     top: 44%;
+     left: 60%;
+     width: 27vw;
+     height: 30vh;
+     z-index: 2;
+     margin:0px;
+     padding:0px;
+  }
+  
+  div#wall-mounted-cooling{
+    position: relative;
+     top: -30%;
+     left: 38%;
+     width: 30vw;
+     height: 35vh;
+     z-index: 2;
+     margin:0px;
+     padding:0px;
+  }
+  
+  div#floor-mounted-cooling{
+    position: relative;
+     top: -32%;
+     left: 10%;
+     width: 18vw;
+     height: 25vh;
+     z-index: 2;
+     margin:0px;
+     padding:0px;
+  }
+  
+  div#multi-zone-cooling{
+    position: relative;
+     top: -57%;
+     left: 0;
+     width: 9vw;
+     height: 25vh;
+     z-index: 2;
+     margin:0px;
+     padding:0px;
+  }
+  
+  div#horizontal-ducted-cooling{
+    position: relative;
+     top: -110%;
+     left: 15%;
+     width: 20vw;
+     height: 25vh;
+     z-index: 2;
+     margin:0px;
+     padding:0px;
   }
 
    /* ==========================================================================
@@ -16692,3 +16758,66 @@ button:focus {
 .interactive{
   font-family: inherit;
 }
+
+#calendar {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  width: 300px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.weekdays, .days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.weekdays div {
+  font-weight: bold;
+}
+
+.days div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.arrow {
+  cursor: pointer;
+  user-select: none;
+}
+
+.highlighted {
+  color: #00D1FF;
+}
+
+.time-picker {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(9, 1fr); /* 9 rows */
+  gap: 10px;
+  padding: 20px;
+  width:300px;
+  /* Adjust the padding and gap as needed to fit your design */
+}
+
+.time-slot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px; /* Set a minimum width for each time slot */
+  height: 40px; /* Set a fixed height for each time slot */
+  border: 1px solid #00D1FF; /* White border */
+  color: #fff;
+  border-radius: 5px;
+  user-select: none;
+  cursor: pointer;
+  /* Add a glow effect or any additional styling you want */
+}
+
+/* ... other styles ... */
