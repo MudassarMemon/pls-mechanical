@@ -16743,6 +16743,11 @@ button:focus {
   background-position: 10% 20%, 30% 40%, 50% 60%, 70% 80%, 90% 10%;
 } */
 
+   /* ==========================================================================
+   #Commercial
+   ========================================================================== */
+
+
 
 .clients {
   display: block;
@@ -16758,6 +16763,12 @@ button:focus {
 .interactive{
   font-family: inherit;
 }
+
+
+   /* ==========================================================================
+   #Appointment
+   ========================================================================== */
+
 
 #calendar {
   font-family: Arial, sans-serif;
@@ -16820,4 +16831,62 @@ button:focus {
   /* Add a glow effect or any additional styling you want */
 }
 
-/* ... other styles ... */
+.appt-step-1{
+  border-top: 1px solid #00D1FF;
+  text-indent: 15px;
+}
+
+.appt-step-2{
+  border-top: 1px solid #262D33;
+  text-indent: 15px;
+}
+
+.form-step-one > h3 > span{
+  color: black;
+  font-size:  28px;
+  font-weight: 700;
+  background-color: #00D1FF;
+  padding: 3px 18px;
+  margin-right: 15px;
+}
+
+.title-10 {
+  font-size: 1.6rem;
+}
+
+.appt-next {
+  background-color: black;
+  color:white;
+  text-align: right;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.appt-next:hover {
+  color: #00D1FF;
+  transform: translateX(1.2)scale(1.1);
+  text-decoration: underline;
+
+}
+
+textarea.appt {
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  border:none;
+  border-bottom: 1px solid #929292;
+  font-size: larger;
+}
+
+select.appt {
+  background-color: #262D33;
+  color: #ffffff;
+  width: 100%;
+  font-size: larger;
+  border:transparent;
+}
+
+
+#free-assessment {
+  font-size: larger;
+  scale: 2;
+}
