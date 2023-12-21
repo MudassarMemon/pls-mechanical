@@ -5118,54 +5118,6 @@ button {
   background-attachment: scroll;
 }
 
-@media (max-width: 991px) {
-  .footer.bg-parallax {
-    background-position: center center;
-  }
-}
-
-.footer p {
-  color: #fff;
-}
-
-@media (max-width: 991px) {
-  .footer {
-    padding-bottom: 35px;
-  }
-  .footer-col {
-    margin-bottom: 50px;
-  }
-}
-
-.footer-2 .footer-col {
-  margin-bottom: 30px;
-}
-
-.footer-2 .footer-col p {
-  color: #888;
-}
-
-@media (max-width: 991px) {
-  .footer-2 .footer-col {
-    margin-bottom: 10px;
-    text-align: center !important;
-  }
-}
-
-.footer-3 p {
-  color: #ebebeb;
-}
-
-.footer-3 .footer-col {
-  margin-bottom: 30px;
-}
-
-@media (max-width: 991px) {
-  .footer-3 {
-    margin-bottom: 10px;
-    text-align: center !important;
-  }
-}
 
 #subscribe-message {
   font-size: 36px;
@@ -5217,6 +5169,66 @@ button {
   cursor: pointer;
   background-image: linear-gradient(to right, #00D1FF 0%, #00D1FF 51%, #F7B278 100%);
 }
+
+
+@media (max-width: 991px) {
+  .footer.bg-parallax {
+    background-position: center center;
+  }
+}
+
+.footer p {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .footer {
+    padding-bottom: 35px;
+  }
+  .footer-col {
+    margin-bottom: 50px;
+  }
+  #subscribe-button-message{
+    padding: 15px 0;
+  }
+  #subscribe-btn {
+    margin-bottom: 5px;
+  }
+  .footer-pad{
+    margin: 1px;
+  }
+}
+
+.footer-2 .footer-col {
+  margin-bottom: 30px;
+}
+
+.footer-2 .footer-col p {
+  color: #888;
+}
+
+@media (max-width: 991px) {
+  .footer-2 .footer-col {
+    margin-bottom: 10px;
+    text-align: center !important;
+  }
+}
+
+.footer-3 p {
+  color: #ebebeb;
+}
+
+.footer-3 .footer-col {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+  .footer-3 {
+    margin-bottom: 10px;
+    text-align: center !important;
+  }
+}
+
 
 /* ==========================================================================
    #HEADER
