@@ -16885,8 +16885,11 @@ select.appt {
   border:transparent;
 }
 
-
 #free-assessment {
   font-size: larger;
   scale: 2;
+}
+
+.form-step-two input{
+  background-color: rgba(0, 0, 0, 0)
 }
