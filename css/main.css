@@ -16871,7 +16871,7 @@ button:focus {
 textarea.appt {
   background-color: rgba(0, 0, 0, 0);
   color: #ffffff;
-  border:none;
+  border: none;
   border-bottom: 1px solid #929292;
   font-size: larger;
 }
@@ -16900,4 +16900,10 @@ select.appt {
 .step_one_validate {
   color: rgb(123, 36, 36);
   display: none
+}
+
+.appt-step-1-values {
+  text-indent: 15px;
+  color: #94999e;
+  display: none;
 }
