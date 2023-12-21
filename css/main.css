@@ -16907,3 +16907,39 @@ select.appt {
   color: #94999e;
   display: none;
 }
+
+#postal-code-mobile{
+  display:none;
+}
+
+@media (max-width: 767px) {
+  .title-10 {
+    font-size: 1.2em;
+  }
+  #free-assessment{
+    scale: 1;
+  }
+  #free-assessment-text {
+    padding-top: 10px;
+  }
+  #free-assessment-div {
+    width: 50px;
+    padding-top:10px;
+  }
+  #opt-text {
+    max-width: fit-content;
+    padding-top: 10px;
+  }
+  #back-button-div {
+    max-width: fit-content;
+  }
+  #submit-button-div {
+    max-width: fit-content;
+  }
+  #postal-code{
+    display: none;
+  }
+  #postal-code-mobile{
+    display: block;
+  }
+}

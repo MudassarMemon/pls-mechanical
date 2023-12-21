@@ -279,11 +279,11 @@
                                     </div>
 
                                     <div class="col-sm-12 col-md-6">
-                                        <div class="row">
-                                            <div class="col-sm-1 p-r-0">
+                                        <div class="row flex-nowrap">
+                                            <div class="col-sm-1 p-r-0" id="free-assessment-div">
                                                 <input type="checkbox" id="free-assessment" name="free-assessment">
                                             </div>
-                                            <div class="col-sm-11">
+                                            <div class="col-sm-11" id="free-assessment-text">
                                                 <label for="free-assessment">Not sure. I would like a free assessment</label>
                                             </div>
                                         </div>
@@ -343,10 +343,13 @@
                                 </div>
                                 <div class="col-sm-12 col-md-6">
                                     <div class="row p-t-10">
-                                        <div class="col-sm-1 p-r-0">
+                                        <div class="col-sm-12 col-md-6" id="postal-code-mobile">
+                                            <input class="au-input" type="text" name="fname" placeholder="Postal Code" required="required">
+                                        </div>
+                                        <div class="col-sm-1 p-r-0" id="free-assessment-div">
                                             <input type="checkbox" id="free-assessment" name="free-assessment">
                                         </div>
-                                        <div class="col-sm-11">
+                                        <div class="col-sm-11" id="opt-text">
                                             <label for="free-assessment">Send Text Messages</label>
                                         </div>
                                     </div>
@@ -355,7 +358,7 @@
                             </div>
 
                             <div class="row">
-                                <div class="col-sm-12 col-md-6">
+                                <div class="col-sm-12 col-md-6" id="postal-code">
                                     <input class="au-input" type="text" name="fname" placeholder="Postal Code" required="required">
                                 </div>
                                 <div class="col-sm-12 col-md-6 p-t-10">
@@ -371,11 +374,11 @@
                             <div class="row p-t-20">
                                 <div class="col-sm-6 col-md-10"></div>
 
-                                <div class="col-sm-6 col-md-1">
+                                <div class="col-sm-6 col-md-1" id="back-button-div">
                                     <button class="appt-next p-l-20" id="back-button" type="button">Back</button>
                                 </div>
 
-                                <div class="col-sm-6 col-md-1">
+                                <div class="col-sm-6 col-md-1" id="submit-button-div">
                                     <input class="appt-next" type="submit" value="Submit">
                                 </div>
                             </div>
