@@ -16625,6 +16625,7 @@ button:focus {
      z-index: 2;
      margin:0px;
      padding:0px;
+     /* border:1px solid red; */
   }
   
   div#duct-air-handler-heating{
@@ -16636,6 +16637,7 @@ button:focus {
      z-index: 2;
      margin:0px;
      padding:0px;
+     /* border:1px solid red; */
   }
   
   div#wall-mounted-heating{
@@ -16647,6 +16649,7 @@ button:focus {
      z-index: 2;
      margin:0px;
      padding:0px;
+     /* border:1px solid red; */
   }
   
   div#floor-mounted-heating{
@@ -16658,6 +16661,7 @@ button:focus {
      z-index: 2;
      margin:0px;
      padding:0px;
+     /* border:1px solid red; */
   }
   
   div#multi-zone-heating{
@@ -16669,6 +16673,7 @@ button:focus {
      z-index: 2;
      margin:0px;
      padding:0px;
+     /* border:1px solid red; */
   }
   
   div#horizontal-ducted-heating{
@@ -16680,6 +16685,7 @@ button:focus {
      z-index: 2;
      margin:0px;
      padding:0px;
+     /* border:1px solid red; */
   }
 
   div#cassette-cooling{

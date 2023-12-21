@@ -7,9 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     interactiveHover.forEach(function(area){
         
-        area.addEventListener("mouseover", function(){
+        area.addEventListener("click", function(){
             let overlay = this.getAttribute('id')
-            console.log(overlay)
 
             interactiveOverlay[2].style.backgroundImage = "url(\"./images/" + overlay + ".jpg\")"
         })
