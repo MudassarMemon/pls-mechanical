@@ -5139,8 +5139,10 @@ button {
   background-color: #00D1FF;
   color: black;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
+  width: 100%;
+  height: auto;
 }
 
 #subscribe-btn:hover {
@@ -5189,7 +5191,7 @@ button {
     margin-bottom: 50px;
   }
   #subscribe-button-message{
-    padding: 15px 0;
+    padding: 5px 0 30px 0;
   }
   #subscribe-btn {
     margin-bottom: 5px;
@@ -5229,6 +5231,32 @@ button {
   }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-pad{
+    justify-content: center;
+  }
+  .subscribe-form{
+    justify-content: center;
+  }
+  .footer-nav{
+    margin-left: 20%;
+  }
+  .subscribe-button-message{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px){
+  #subscribe-button-message{
+    padding: 5px 0 40px 0;
+  }
+  #subscribe-btn {
+    margin-bottom: 10px;
+  }
+  #subscribe-inputs {
+    margin-bottom: 30px;
+  }
+}
 
 /* ==========================================================================
    #HEADER
@@ -16869,10 +16897,12 @@ button:focus {
 .appt-next {
   background-color: black;
   color:white;
-  text-align: right;
   font-size: larger;
   font-weight: 600;
+  float:right;
+  padding-right: 80px;
 }
+
 
 .appt-next:hover {
   color: #00D1FF;
@@ -16955,3 +16985,9 @@ select.appt {
     display: block;
   }
 }
+
+/* @media (max-width: 1199px) {
+  #submit-button-div{
+    padding-right: 10px;
+  }
+} */
