@@ -252,7 +252,7 @@
 
             <!-- APPOINTMENT-->
             <section class="section p-b-100">
-                <!-- <div class="container">
+                <div class="container">
                         <div class="form-step-one">
                             <div class="row p-b-20">
                                 <div class="col-sm-12 form-step-one">
@@ -295,9 +295,7 @@
                                 </div>
                             </div>
                         </div>
-
-                        
-                </div> -->
+                </div>
 
                 <div class="container">
                     <div class="form-step-one">
@@ -307,60 +305,59 @@
                             </div>
                         </div>
 
-                        <div class="row p-t-20 p-b-20">
-                            <div class="col-sm-12 col-md-6">
+                        <div class="row p-t-20">
+                            <div class="col-sm-12 col-md-6 ">
                                 <input class="au-input" type="text" name="fname" placeholder="First Name" required="required">
-                                <input class="au-input" type="text" name="lname" placeholder="Last Name" required="required">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
                                 <input class="au-input" type="email" name="email" placeholder="Email Address" required="required" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <input class="au-input" type="text" name="lname" placeholder="Last Name" required="required">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <input class="au-input" type="text" name="phone" placeholder="Phone" required="required">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
                                 <input class="au-input" type="text" name="city" placeholder="City/Town" required="required">
                             </div>
-                            
+                            <div class="col-sm-12 col-md-6">
+                                <div class="row p-t-10">
+                                    <div class="col-sm-1 p-r-0">
+                                        <input type="checkbox" id="free-assessment" name="free-assessment">
+                                    </div>
+                                    <div class="col-sm-11">
+                                        <label for="free-assessment">Send Text Messages</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
                             <div class="col-sm-12 col-md-6">
                                 <input class="au-input" type="text" name="fname" placeholder="Postal Code" required="required">
-                                <input type="checkbox" id="free-assessment" name="free-assessment">
-                                <input class="au-input" type="text" name="phone" placeholder="Phone" required="required">
+                            </div>
+                            <div class="col-sm-12 col-md-6 p-t-10">
                                 <select class="appt rounded" id="reference" name="reference">    
                                     <option value="">How did you hear about us?</option>
                                     <option value="repair">Repair</option>
                                     <option value="maintenance">Maintenance</option>
                                     <option value="installation">Installation</option>
                                 </select>
-                                <span><label for="free-assessment">Not sure. I would like a free assessment</label></span>
-
-                        </div>
-
-                        <div class="row p-t-20 p-b-20">
-                            <div class="col-sm-12 col-md-6">
-                                <select class="appt rounded" id="service" name="service">    
-                                    <option value="">Which service do you need?</option>
-                                    <option value="repair">Repair</option>
-                                    <option value="maintenance">Maintenance</option>
-                                    <option value="installation">Installation</option>
-                                </select>
-                            </div>
-
-                            <div class="col-sm-12 col-md-6">
-                                <div class="row">
-                                    <div class="col-sm-1 p-r-0">
-                                        <input type="checkbox" id="free-assessment" name="free-assessment">
-                                    </div>
-                                    <div class="col-sm-11">
-                                        <label for="free-assessment">Not sure. I would like a free assessment</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <textarea class="appt" id="details" name="details" placeholder="Details (Optional)" rows="4"></textarea>
                             </div>
                         </div>
 
                         <div class="row p-t-20">
                             <div class="col-sm-6 col-md-9"></div>
                             <div class="col-sm-6 col-md-3">
-                                <input class="appt-next" type="submit" value="Next">
+                                <input class="appt-next" type="submit" value="Submit">
                             </div>
                         </div>
                     </div>
