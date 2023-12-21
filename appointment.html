@@ -252,9 +252,9 @@
 
             <!-- APPOINTMENT-->
             <section class="section p-b-100">
-                <form method="post" action="https://formsubmit.co">
+                <form id="two-step-form" method="post" action="https://formsubmit.co">
                     <!-- Honeypot -->
-						<input type="text" name="_honey" style="display: none;">
+					<input type="text" name="_honey" style="display: none;">
 
                     <!-- Captcha -->
                     <input type="hidden" name="_captcha" value="false">
@@ -267,7 +267,7 @@
                                     </div>
                                 </div>
 
-                                <div class="row p-t-20 p-b-20">
+                                <div class="row p-t-20  p-b-10">
                                     <div class="col-sm-12 col-md-6">
                                         <select class="appt rounded" id="service" name="service">    
                                             <option value="">Which service do you need?</option>
@@ -289,6 +289,12 @@
                                     </div>
                                 </div>
 
+                                <div class="row p-b-20">
+                                    <div class="col-sm-12">
+                                        <h5 class="step_one_validate">Please select a service or click the checkbox</h5>
+                                    </div>
+                                </div>
+
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <textarea class="appt" id="details" name="details" placeholder="Details (Optional)" rows="4"></textarea>
@@ -296,9 +302,9 @@
                                 </div>
 
                                 <div class="row p-t-20">
-                                    <div class="col-sm-6 col-md-9"></div>
-                                    <div class="col-sm-6 col-md-3">
-                                        <input class="appt-next" type="submit" value="Next">
+                                    <div class="col-sm-6 col-md-11"></div>
+                                    <div class="col-sm-6 col-md-1">
+                                        <button class="appt-next p-l-20" id="next-button" type="button">Next</button>
                                     </div>
                                 </div>
                             </div>
@@ -362,8 +368,13 @@
                             </div>
 
                             <div class="row p-t-20">
-                                <div class="col-sm-6 col-md-9"></div>
-                                <div class="col-sm-6 col-md-3">
+                                <div class="col-sm-6 col-md-10"></div>
+
+                                <div class="col-sm-6 col-md-1">
+                                    <button class="appt-next p-l-20" id="back-button" type="button">Back</button>
+                                </div>
+
+                                <div class="col-sm-6 col-md-1">
                                     <input class="appt-next" type="submit" value="Submit">
                                 </div>
                             </div>
@@ -535,6 +546,7 @@
     <script src="js/config-contact.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZpvUGmm_OZAW0utJ5uiP79_LLWQPRXsA"></script>
     <script src="js/theme-map.js"></script>
+    <script src="js/appointment.js"></script>
 
 
     <!-- Main JS-->

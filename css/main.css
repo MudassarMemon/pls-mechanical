@@ -16866,7 +16866,6 @@ button:focus {
   color: #00D1FF;
   transform: translateX(1.2)scale(1.1);
   text-decoration: underline;
-
 }
 
 textarea.appt {
@@ -16892,4 +16891,13 @@ select.appt {
 
 .form-step-two input{
   background-color: rgba(0, 0, 0, 0)
+}
+
+.form-step-two{
+  display: none;
+}
+
+.step_one_validate {
+  color: rgb(123, 36, 36);
+  display: none
 }
